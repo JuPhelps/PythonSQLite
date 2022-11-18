@@ -14,6 +14,13 @@ var1 REAL,
 var2 TEXT,
 var3 INTEGER)"""
 
+#Create table 2
+table = """ CREATE TABLE IF NOT EXISTS tab2 (
+tab2_id INTEGER PRIMARY KEY,
+var1 REAL,
+var2 TEXT,
+var3 INTEGER)"""
+
 insert = """INSERT INTO tab1 (var1, var2, var3) VALUES(2.1, "Ally", 53)"""
 
 select = """SELECT * FROM tab1"""
